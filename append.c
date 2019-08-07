@@ -6,16 +6,18 @@ void main()
 	int arr1[50], arr2[50], size1, size2, size, i, j, k, merge[100];
 	printf("Enter Array 1 Size : ");
 	scanf("%d",&size1);
-	printf("Enter Array 1 Elements : ");
+	
 	for(i=0; i<size1; i++)
 	{
+		printf("Enter Array %d  Elemenets",size1);
 		scanf("%d",&arr1[i]);
 	}
 	printf("Enter Array 2 Size : ");
 	scanf("%d",&size2);
-	printf("Enter Array 2 Elements : ");
+
 	for(i=0; i<size2; i++)
 	{
+		printf("Enter Array %d  Elemenets",size2);
 		scanf("%d",&arr2[i]);
 	}
 	for(i=0; i<size1; i++)
